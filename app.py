@@ -27,3 +27,10 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 
 # Evaluation metrics
 from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score,confusion_matrix
+
+import streamlit as st
+
+
+st.set_page_config(page_title="Chronical kidney disease ML Dashboard", layout="wide")
+st.title("🎗️ Chronical kidney disease Machine Learning Classification Dashboard")
+st.markdown("**Created by Piyush Aughad**")
